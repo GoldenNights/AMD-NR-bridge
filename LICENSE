@@ -1,0 +1,59 @@
+DLSS-NR OptiScaler Bridge - License
+
+Copyright (c) 2026 GoldenNights. All rights reserved.
+
+This license covers DLSS-NR OptiScaler Bridge (the "Software"): the plugin
+(dlssnr_opti_bridge.asi), the installer and uninstaller, and the documentation that
+comes with them, in every release published on the Software's GitHub page.
+
+1. What you may do
+
+   You may download the Software from its GitHub page and use it free of charge, for
+   personal, non-commercial purposes, on computers you own or control.
+
+2. What you may not do
+
+   a) Redistribute the Software or any part of it, modified or unmodified. This includes
+      re-uploading or mirroring it, and bundling it in modpacks, installers or other
+      packages. Link to the Software's GitHub page instead.
+   b) Sell the Software, charge for access to it, or use it as part of a paid product or
+      service.
+   c) Modify, decompile, disassemble or reverse engineer the Software, except where
+      applicable law allows it regardless of this restriction.
+   d) Remove or change this license or any copyright notice.
+
+3. Other software
+
+   The Software works together with software that is not part of it and is not covered by
+   this license, including OptiScaler, DLSS-NR on AMD, NVIDIA software and the games you
+   use it with. You must obtain and use that software under its own terms. The Software
+   does not include or redistribute any of its files.
+
+4. No affiliation
+
+   The Software is an independent project. It is not made, endorsed or supported by
+   danielblnc, the OptiScaler developers, NVIDIA, AMD or any game publisher. Names and
+   trademarks belong to their owners.
+
+5. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE AND NON-INFRINGEMENT. No support is provided. You use the Software
+   at your own risk, including any effect on your games, saved data, system stability,
+   and online or anti-cheat protected games and accounts.
+
+6. Limitation of liability
+
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+7. End of permission
+
+   Your permission to use the Software ends automatically if you break these terms.
+
+8. Later versions
+
+   Later versions of the Software may come with different terms. Each version is covered
+   by the license included with it.
