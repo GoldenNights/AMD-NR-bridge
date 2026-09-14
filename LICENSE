@@ -1,8 +1,8 @@
-DLSS-NR OptiScaler Bridge - License
+DLSSNR-OPTI-bridge-AMD - License
 
 Copyright (c) 2026 GoldenNights. All rights reserved.
 
-This license covers DLSS-NR OptiScaler Bridge (the "Software"): the plugin
+This license covers DLSSNR-OPTI-bridge-AMD (the "Software"): the plugin
 (dlssnr_opti_bridge.asi), the installer and uninstaller, and the documentation that
 comes with them, in every release published on the Software's GitHub page.
 
@@ -25,7 +25,7 @@ comes with them, in every release published on the Software's GitHub page.
 3. Other software
 
    The Software works together with software that is not part of it and is not covered by
-   this license, including OptiScaler, DLSS-NR on AMD, NVIDIA software and the games you
+   this license, including OptiScaler, DLSS-NR-on-AMD, NVIDIA software and the games you
    use it with. You must obtain and use that software under its own terms. The Software
    does not include or redistribute any of its files.
 

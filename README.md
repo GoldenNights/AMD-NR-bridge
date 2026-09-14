@@ -1,7 +1,7 @@
-# DLSS-NR OptiScaler Bridge
+# DLSSNR-OPTI-bridge-AMD
 
-Makes [DLSS-NR on AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) work in games that also use
-[OptiScaler](https://github.com/optiscaler/OptiScaler).
+Makes [DLSS-NR-on-AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) work in games that also use
+[OptiScaler](https://github.com/optiscaler/OptiScaler). For AMD Radeon GPUs only.
 
 With both mods installed, one of these usually happens:
 
@@ -14,18 +14,19 @@ of OptiScaler's FSR 4.
 ## Requirements
 
 - Windows 10 or 11, 64-bit
-- A Radeon GPU supported by DLSS-NR on AMD
+- An AMD Radeon GPU supported by DLSS-NR-on-AMD (Radeon RX 9000 or RX 7000 series). NVIDIA GPUs are
+  not supported and do not need it.
 - A DirectX 12 game
 - [OptiScaler](https://github.com/optiscaler/OptiScaler) installed in the game (tested with 0.9.4)
-- [DLSS-NR on AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) installed in the same game (tested
+- [DLSS-NR-on-AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) installed in the same game (tested
   with 0.3.0)
 
-The bridge does not include OptiScaler, DLSS-NR on AMD, or any NVIDIA or game files. Install those
+The bridge does not include OptiScaler, DLSS-NR-on-AMD, or any NVIDIA or game files. Install those
 yourself first.
 
 ## Download
 
-Get `DLSS-NR-OptiScaler-Bridge-<version>.zip` from the [latest release](../../releases/latest).
+Get `DLSSNR-OPTI-bridge-AMD-<version>.zip` from the [latest release](../../releases/latest).
 
 If Windows or your antivirus blocks the files, right-click the downloaded zip, choose
 **Properties**, tick **Unblock**, and unzip it again.
@@ -87,7 +88,7 @@ game folder show what happened after playing for a minute:
 
 ## Tested with
 
-| game | GPU | OptiScaler | DLSS-NR on AMD |
+| game | GPU | OptiScaler | DLSS-NR-on-AMD |
 |---|---|---|---|
 | Rise of the Tomb Raider | Radeon RX 9070 | 0.9.4 | 0.3.0 |
 | Red Dead Redemption 2 | Radeon RX 9070 | 0.9.4 | 0.3.0 |
@@ -96,7 +97,7 @@ Other games and versions may work but have not been tested.
 
 ## Credits
 
-- [DLSS-NR on AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) by danielblnc
+- [DLSS-NR-on-AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) by danielblnc
 - [OptiScaler](https://github.com/optiscaler/OptiScaler) by the OptiScaler team
 
 ## Disclaimer
