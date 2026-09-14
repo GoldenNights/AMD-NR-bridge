@@ -100,6 +100,12 @@ Other games and versions may work but have not been tested.
 - [DLSS-NR-on-AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) by danielblnc
 - [OptiScaler](https://github.com/optiscaler/OptiScaler) by the OptiScaler team
 
+## Support
+
+DLSSNR-OPTI-bridge-AMD is free. If it saved you time, you can support its development:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/goldennights)
+
 ## Disclaimer
 
 This tool is provided as is, without support or warranty of any kind. It is not made by, or affiliated
