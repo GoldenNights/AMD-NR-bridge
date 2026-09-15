@@ -37,23 +37,33 @@ If Windows or your antivirus blocks the files, right-click the downloaded zip, c
 2. Unzip the download anywhere.
 3. Double-click **Install Bridge.bat**.
 4. Choose the game folder: the one with `OptiScaler.ini` and `dlssnr_on_amd.ini`, usually where the
-   game's `.exe` is. You can also drag the game folder onto **Install Bridge.bat**.
+   game's `.exe` is. In Unreal Engine games (for example Clair Obscur: Expedition 33) that is
+   `<game>\<name>\Binaries\Win64`, next to the `...-Win64-Shipping.exe`. You can also drag the game
+   folder onto **Install Bridge.bat**.
 5. Read the list of changes and press **Y**, then **Enter**.
 
 Then start the game in DirectX 12 and turn DLSS, FSR or XeSS on in its graphics settings, whichever
 it offers. OptiScaler turns it into FSR 4, and the DLSS-NR overlay should appear without asking for
-FSR.
+FSR. If the installer says the game has its own FSR 3.1 or FSR 4, choose FSR, not DLSS.
 
 ## What the installer changes
 
 - Copies `dlssnr_opti_bridge.asi` into the game's `plugins` folder, where OptiScaler loads it.
-- Sets three options in `OptiScaler.ini`, after saving your original as `OptiScaler.ini.before-bridge`:
+- Sets these options in `OptiScaler.ini`, after saving your original as `OptiScaler.ini.before-bridge`:
 
   | setting | why |
   |---|---|
   | `LoadAsiPlugins=true` | OptiScaler loads the bridge |
   | `EnableFfxInputs=false` | otherwise OptiScaler calls FSR in a way DLSS-NR cannot see |
   | `Dx12Upscaler=fsr31` | DLSS-NR needs OptiScaler to use FSR (FSR 4 on Radeon RX 9000) |
+  | `DxgiFactoryWrapping=true` | otherwise OptiScaler's menu is sometimes missing, or the game crashes, when DLSS-NR and the game start at the same moment |
+
+  In games with their own FSR 3.1 or FSR 4 it sets these instead:
+
+  | setting | why |
+  |---|---|
+  | `EnableFfxInputs=true` | OptiScaler sees the game's FSR |
+  | `ColorResourceBarrier=64` | otherwise the game crashes as soon as it starts |
 
 - Fixes OptiScaler and DLSS-NR being installed under the same file name (see below).
 
@@ -75,14 +85,15 @@ A replaced file cannot be recovered, only installed again.
 ## Uninstall
 
 Double-click **Uninstall Bridge.bat** and choose the game folder. It removes the bridge and puts the
-three `OptiScaler.ini` settings back. OptiScaler and DLSS-NR stay installed.
+`OptiScaler.ini` settings back. OptiScaler and DLSS-NR stay installed.
 
 ## If something does not work
 
 Run **Install Bridge.bat** again: it shows what it finds and fixes what is missing. These files in the
 game folder show what happened after playing for a minute:
 
-- `plugins\dlssnr_opti_bridge.<game exe name>.log`, for example `dlssnr_opti_bridge.RDR2.log`
+- `plugins\dlssnr_opti_bridge.<game exe name>.log`, for example `dlssnr_opti_bridge.RDR2.log`. Each
+  launch is added at the end, with its date and time.
 - `dlssnr_on_amd.log`
 - `OptiScaler.log`, when `LogToFile=true` is set in `OptiScaler.ini`
 
@@ -92,6 +103,7 @@ game folder show what happened after playing for a minute:
 |---|---|---|---|
 | Rise of the Tomb Raider | Radeon RX 9070 | 0.9.4 | 0.3.0 |
 | Red Dead Redemption 2 | Radeon RX 9070 | 0.9.4 | 0.3.0 |
+| Clair Obscur: Expedition 33 | Radeon RX 9070 | 0.9.4 | 0.3.0 |
 
 Other games and versions may work but have not been tested.
 
