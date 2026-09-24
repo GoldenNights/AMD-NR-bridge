@@ -39,8 +39,6 @@ yourself first.
 
 Get `AMD-NR-bridge-<version>.zip` from the [latest release](../../releases/latest).
 
-If Windows or your antivirus blocks the files, right-click the downloaded zip, choose
-**Properties**, tick **Unblock**, and unzip it again.
 
 ## Install
 
