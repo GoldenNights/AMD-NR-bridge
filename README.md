@@ -58,6 +58,12 @@ Then start the game in DirectX 12 and turn DLSS, FSR or XeSS on in its graphics 
 it offers. OptiScaler turns it into FSR 4, and the DLSS-NR overlay should appear without asking for
 FSR. If the installer says the game has its own FSR 3.1 or FSR 4, choose FSR, not DLSS.
 
+## Support
+
+AMD-NR-bridge is free. Please support the project:
+
+[![Support the project on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20the%20project-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/goldennights)
+
 ## Frame generation
 
 OptiScaler's own frame generation (FSR FG) works with the bridge.
@@ -127,12 +133,6 @@ Double-click **Uninstall AMD-NR-bridge.bat** and choose the game folder. It remo
 
 - [DLSS-NR-on-AMD](https://github.com/danielblnc/DLSS-NR-on-AMD) by danielblnc
 - [OptiScaler](https://github.com/optiscaler/OptiScaler) by the OptiScaler team
-
-## Support
-
-AMD-NR-bridge is free. Please support the project:
-
-[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/goldennights)
 
 ## Disclaimer
 
